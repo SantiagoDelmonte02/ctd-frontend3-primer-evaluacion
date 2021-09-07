@@ -12,14 +12,15 @@
   justify-content: center;
   align-items: center;
   font-family: "Hina Mincho", serif;
+  color: white;
 }
 
 .historia {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
   color: white;
+  text-align: center;
 }
 
 .opciones {
