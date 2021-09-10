@@ -25,7 +25,7 @@ class Juego extends Component {
 
   handleClick = (e) => {
     const id = e.target.id;
-    if (this.state.contador > 7){
+    if (this.state.contador >= 7){
       alert("Fin!")
     } else if (id === "A" && this.state.seleccionAnterior !== "A") {
       this.setState({ 
